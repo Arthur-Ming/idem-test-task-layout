@@ -1,0 +1,23 @@
+@import "mixins";
+@import "fonts";
+$fontFamily: "Roboto";
+
+$minWidth: 320px;
+$maxWidth: 1920px;
+$maxWidthContainer: 1280px;
+$md1: $maxWidthContainer + 12;
+$md2: 991.98px;
+$md3: 767.98px;
+$md4: 479.98px;
+
+@import "null";
+@import "variables";
+@import "common";
+@import "header";
+@import "section-1";
+@import "section-2";
+@import "section-3";
+@import "section-4";
+@import "list";
+@import "chat";
+@import "footer";
